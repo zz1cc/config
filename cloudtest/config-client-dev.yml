@@ -1,3 +1,6 @@
-springcloud-name = coud
-kgo = 111
-name = wwww
+server:
+  port: 8001
+spring: 
+  profiles: dev   
+  application: 
+    name: config-client
