@@ -1,19 +1,6 @@
-spring:
-  profiles:
-    active:
-      - dev
----
 server:
   port: 8792
 spring:
   profiles: dev
-  application:
-    name: config-server
-
----
-server:
-  port: 8792
-spring:
-  profiles: test
   application:
     name: config-server
