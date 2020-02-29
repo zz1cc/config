@@ -1,0 +1,20 @@
+server:
+  port: 8790
+eureka:
+  client:
+    serviceUrl:
+      #注册中心的地址
+      defaultZone: http://localhost:8760/eureka/
+spring:
+  application:
+    name: config-server
+  # git管理配置文件
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zz1cc/config
+          search-paths: /cloudtest/config
+          username: 1411746842@qq.com
+          password: cz2211194787
+          label: master
