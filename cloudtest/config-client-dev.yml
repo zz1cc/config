@@ -3,8 +3,3 @@ server:
 spring:  
   application: 
     name: config-client
-eureka:
-  client:
-    service-url:
-      #注册中心的地址
-      defaultZone: http://localhost:8760/eureka/
