@@ -3,5 +3,5 @@ server:
 spring:  
   application: 
     name: config-client
-a: zxc123222
+a: ppp
 
