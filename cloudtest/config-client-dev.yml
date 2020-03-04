@@ -3,5 +3,5 @@ server:
 spring:  
   application: 
     name: config-client
-a: qqqq
+a: qqqq1111
 
