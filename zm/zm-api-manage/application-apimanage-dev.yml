@@ -3,4 +3,4 @@ server:
 spring:
   application:
     name: api-manage
-name: qwe
+name: qwe21
