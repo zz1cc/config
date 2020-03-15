@@ -1,5 +1,0 @@
-server:   
-  port: 8310
-spring:   
-  application:     
-  name: api-web

@@ -1,5 +1,0 @@
-server:   
-  port: 8130
-spring:   
-  application:     
-  name: api-zuul
